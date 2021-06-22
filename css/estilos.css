@@ -156,6 +156,86 @@ input[type=text]:focus, input[type=password]:focus {
     margin-right: 30%;
 }
 
+/* CV */
+#contenedor-cv{
+    margin-top: 2%;
+    width:80%;
+    height: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color:whitesmoke;
+    box-shadow: 1px 1px 10px black;
+    margin-bottom: 2%;
+}
+#header{
+    display:flex;
+    justify-content: space-between;
+}
+
+#imagen{
+    width:20%;
+    height:18%;
+    padding-top:0.2%;
+    text-align: center;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    background-color:rgb(101, 215, 253);
+    
+}
+
+#img-cv{
+    width:45%;
+    height:80%;
+   
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+#nombre{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    /* background-color:green; */
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#izquierda{
+    width: 30%;
+    height:550px;
+    padding-top: 2%;
+    float: left;
+    padding-right: 5%;
+    padding-left: 5%;
+    background-color:whitesmoke;
+    border-right: 1px solid black;
+}
+#derecha{
+    text-align: justify;
+    width: 70%;
+    height: 550px;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 2%;
+    float: right;
+    background-color:whitesmoke;
+    border-left: 1px solid black;
+}
+
+#correo{
+    text-decoration: none;
+    color: black;
+}
+
+#correo:hover{
+    color: blue;
+}
+
+
 @media (min-width: 576px) and (max-width: 800px) {
     #contenedor-login{
         width: 50%
